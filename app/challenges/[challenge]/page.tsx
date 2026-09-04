@@ -1,38 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import challenges from "../../../src/content/challenges/data.json";
 import Image from "next/image";
 import Chip from "@/app/components/Chip";
 import Button from "@/app/components/Button";
 
-type Challenge = {
-  id: string;
-  name: String;
-  detail: String;
-  estimate: String;
-  difficulty: String;
-  category: String[];
-  level: String;
-  feature: String;
-  src: string;
-  single: string
-};
-
 export default function page() {
-  const params = useParams();
-  let id = params.challenge as string;
-  const [currChallenge, setCurrChallenge] = useState<Challenge>();
+  const params = useParams<{ challenge: string }>();
+  const id = params.challenge;
+  const currChallenge = challenges.find((challenge) => challenge.id == id);
 
-  function findChallenge(id: string): Challenge | null {
-    return challenges.find((ch) => ch.id == id);
-  }
-
-  useEffect(() => {
-    const ch = findChallenge(id);
-    setCurrChallenge(ch);
-  }, []);
   return (
     <div className="home-section">
       {currChallenge && (
