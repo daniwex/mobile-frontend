@@ -12,7 +12,7 @@
         "level": "Beginner",
         "feature": "free",
         "src": "/ch-01.png",
-        "single": "/ch-01-01.png"
+        "single": "/ch-01-02.png"
     },
     {
         "id": "2",
@@ -27,7 +27,7 @@
         "level": "Beginner",
         "feature": "free",
         "src": "/ch-02.png",
-        "single": "/ch-02.png"
+        "single": "/ch-02-01.png"
     },
     {
         "id": "3",
@@ -42,7 +42,7 @@
         "level": "Junior",
         "feature": "free",
         "src": "/ch-03.png",
-        "single": "/ch-03.png"
+        "single": "/ch-03-01.png"
     },
     {
         "id": "4",
@@ -73,7 +73,7 @@
         "level": "Intermediate",
         "feature": "Pro",
         "src": "/ch-05.png",
-        "single": "/ch-05.png"
+        "single": "/ch-05-01.png"
     },
     {
         "id": "6",
