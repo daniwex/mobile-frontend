@@ -1,0 +1,93 @@
+[
+    {
+        "id": "1",
+        "name": "Profile Card",
+        "detail": "Build a clean personal profile screen with stats, actions, and a modern layout.",
+        "estimate": "1-2 hrs",
+        "difficulty": "Easy",
+        "category": [
+            "UI",
+            "Layout"
+        ],
+        "level": "Beginner",
+        "feature": "free",
+        "src": "/ch-01.png",
+        "single": "/ch-01.png"
+    },
+    {
+        "id": "2",
+        "name": "Settings Screen",
+        "detail": "Create a polished settings page with grouped options, toggles, and account actions.",
+        "estimate": "1-2 hrs",
+        "difficulty": "Easy",
+        "category": [
+            "UI",
+            "Components"
+        ],
+        "level": "Beginner",
+        "feature": "free",
+        "src": "/ch-02.png",
+        "single": "/ch-02.png"
+    },
+    {
+        "id": "3",
+        "name": "Food Ordering",
+        "detail": "Build a food ordering experience with categories, cart interactions, and item cards.",
+        "estimate": "3-5 hrs",
+        "difficulty": "Medium",
+        "category": [
+            "State",
+            "Navigation"
+        ],
+        "level": "Junior",
+        "feature": "free",
+        "src": "/ch-03.png",
+        "single": "/ch-03.png"
+    },
+    {
+        "id": "4",
+        "name": "Expense Tracker",
+        "detail": "Create a multi-screen finance tracker with transactions, filters, and local persistence.",
+        "estimate": "6-8 hrs",
+        "difficulty": "Challenging",
+        "category": [
+            "API",
+            "Database",
+            "State"
+        ],
+        "level": "Intermediate",
+        "feature": "Pro",
+        "src": "/ch-04.png",
+        "single": "/ch-04-01.png"
+    },
+    {
+        "id": "5",
+        "name": "Messaging UI",
+        "detail": "Implement a modern chat interface with conversation list, messages, and states.",
+        "estimate": "4-6 hrs",
+        "difficulty": "Medium",
+        "category": [
+            "State",
+            "UI"
+        ],
+        "level": "Intermediate",
+        "feature": "Pro",
+        "src": "/ch-05.png",
+        "single": "/ch-05.png"
+    },
+    {
+        "id": "6",
+        "name": "Finance Tracker",
+        "detail": "Build a complete dashboard with charts, analytics, transactions, and insights.",
+        "estimate": "6-8 hrs",
+        "difficulty": "Hard",
+        "category": [
+            "UI",
+            "Layout"
+        ],
+        "level": "Advanced",
+        "feature": "Pro",
+        "src": "/ch-06.png",
+        "single": "/ch-06-01.png"
+    }
+]
