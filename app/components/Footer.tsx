@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <div className="w-full py-[40px] bg-[#e5e5e5] home-section">
       <div className="block md:flex gap-x-10">
         <div>
-          <Link className="text-lg" href="/">Logo</Link>
+          <Link className="text-lg" href="/"><Image  alt=""src="/logo.png" height={100} width={100} /></Link>
           <div className="pt-[5px] text-sm">
             <p>Build real-world mobile apps.</p>
             <p>Sharpen your development skills. </p>

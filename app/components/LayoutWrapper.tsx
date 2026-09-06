@@ -10,9 +10,7 @@ type Children = {
 export default function LayoutWrapper({ children }: Children) {
   const pathName = usePathname();
 
-  const hideNavbarPaths = ["/challenges"];
-
-  const shouldHideNavbar = hideNavbarPaths.includes(pathName);
+  const shouldHideNavbar = pathName.startsWith("/challenges")
   return (
     <div>
       {!shouldHideNavbar && <NavBar />}

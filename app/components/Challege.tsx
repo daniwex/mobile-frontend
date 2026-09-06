@@ -2,7 +2,7 @@ import Image from "next/image";
 import Chip from "@/app/components/Chip";
 
 type Challenge = {
-  id: string;
+  slug: string;
   name: String;
   detail: String;
   estimate: String;
@@ -15,7 +15,7 @@ type Challenge = {
 };
 
 export default function Challege({
-  id,
+  slug,
   name,
   detail,
   estimate,
@@ -28,7 +28,7 @@ export default function Challege({
 }: Challenge) {
   return (
     <div
-      onClick={() => onClick(id)}
+      onClick={() => onClick(slug)}
       className="border border-gray-500/20 rounded-lg cursor-pointer"
     >
       <div className="flex gap-x-7 flex-col">

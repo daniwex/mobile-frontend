@@ -8,8 +8,8 @@ import Challege from "../components/Challege";
 export default function page() {
   const router = useRouter();
   const [showSettingPane, setShowSettingPane] = useState(false);
-  const navigateToChallenge = (id: string) => {
-    router.push(`challenges/${id}`)
+  const navigateToChallenge = (slug: string) => {
+    router.push(`challenges/${slug}`)
   }
   return (
     <div className="home-section py-10">
@@ -27,8 +27,8 @@ export default function page() {
       <div className="grid md:grid-cols-3 md:gap-x-2 gap-y-7 md:mt-10 mt-4 w-full">
         {challenges.map((challenge, index) => (
           <Challege
-            onClick={(id) => navigateToChallenge(id)}
-            id={challenge.id}
+            onClick={(slug) => navigateToChallenge(slug)}
+            slug={challenge.slug}
             key={index}
             name={challenge.name}
             detail={challenge.detail}

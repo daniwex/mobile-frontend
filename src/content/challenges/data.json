@@ -1,6 +1,8 @@
 [
     {
-        "id": "1",
+        "id": "profile-card",
+        "slug": "profile-card",
+        "title": "Profile Card",
         "name": "Profile Card",
         "detail": "Build a clean personal profile screen with stats, actions, and a modern layout.",
         "estimate": "1-2 hrs",
@@ -15,7 +17,9 @@
         "single": "/ch-01-02.png"
     },
     {
-        "id": "2",
+        "id": "settings-screen",
+        "slug": "settings-screen",
+        "title": "Settings Screen",
         "name": "Settings Screen",
         "detail": "Create a polished settings page with grouped options, toggles, and account actions.",
         "estimate": "1-2 hrs",
@@ -30,7 +34,9 @@
         "single": "/ch-02-01.png"
     },
     {
-        "id": "3",
+        "id": "food-ordering",
+        "slug": "food-ordering",
+        "title": "Food Ordering",
         "name": "Food Ordering",
         "detail": "Build a food ordering experience with categories, cart interactions, and item cards.",
         "estimate": "3-5 hrs",
@@ -45,7 +51,9 @@
         "single": "/ch-03-01.png"
     },
     {
-        "id": "4",
+        "id": "expense-tracker",
+        "slug": "expense-tracker",
+        "title": "Expense Tracker",
         "name": "Expense Tracker",
         "detail": "Create a multi-screen finance tracker with transactions, filters, and local persistence.",
         "estimate": "6-8 hrs",
@@ -61,7 +69,9 @@
         "single": "/ch-04-01.png"
     },
     {
-        "id": "5",
+        "id": "messaging-ui",
+        "slug": "messaging-ui",
+        "title": "Messaging UI",
         "name": "Messaging UI",
         "detail": "Implement a modern chat interface with conversation list, messages, and states.",
         "estimate": "4-6 hrs",
@@ -76,7 +86,9 @@
         "single": "/ch-05-01.png"
     },
     {
-        "id": "6",
+        "id": "finance-tracker",
+        "slug": "finance-tracker",
+        "title": "Finance Tracker",
         "name": "Finance Tracker",
         "detail": "Build a complete dashboard with charts, analytics, transactions, and insights.",
         "estimate": "6-8 hrs",

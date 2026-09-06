@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "profile-card",
+    "slug": "profile-card",
+    "title": "Profile Card",
+    "description": "Build a polished developer profile experience with personal information, stats, skills, projects, and social actions.",
+    "difficulty": "beginner",
+    "access": "free",
+    "estimatedTime": {
+      "minHours": 1,
+      "maxHours": 2
+    },
+    "single": "/ch-01-02.png",
+    "screens": 3,
+    "platforms": [
+      "android",
+      "ios",
+      "flutter",
+      "react-native"
+    ],
+    "previewImages": [
+      "/challenges/profile-card/profile.png",
+      "/challenges/profile-card/activity.png",
+      "/challenges/profile-card/about.png"
+    ],
+    "skills": [
+      "ui",
+      "layout",
+      "components",
+      "state",
+      "accessibility"
+    ],
+    "tabs": {
+      "overview": {
+        "mission": "Build a responsive developer profile experience that presents user information, statistics, skills, projects, and profile actions using the supplied designs.",
+        "requirementsSummary": [
+          "Display profile information and avatar",
+          "Show developer statistics",
+          "Display skills and projects",
+          "Support profile tabs and actions",
+          "Handle responsive layouts"
+        ],
+        "bonusSummary": [
+          "Dark mode",
+          "Animated statistics",
+          "Accessibility support"
+        ],
+        "assetsSummary": [
+          "3 screen mockups",
+          "Icons",
+          "Transactions data",
+          "README"
+        ]
+      },
+      "requirements": {
+        "title": "Detailed requirements",
+        "description": "Build the complete profile experience represented in the supplied designs.",
+        "sections": [
+          {
+            "id": "profile-header",
+            "title": "Profile header",
+            "description": "Present the user's primary identity and profile information.",
+            "items": [
+              "Display profile image",
+              "Display name and professional title",
+              "Display location",
+              "Display follower, following, and project counts",
+              "Provide Follow and Message actions"
+            ]
+          },
+          {
+            "id": "profile-content",
+            "title": "Profile content",
+            "description": "Show detailed information about the developer.",
+            "items": [
+              "Display an About section",
+              "Display developer skills",
+              "Display social or portfolio links",
+              "Display project information",
+              "Support the supplied About, Projects, and Activity tabs"
+            ]
+          },
+          {
+            "id": "interaction",
+            "title": "Interaction",
+            "description": "Make the supplied UI feel interactive rather than static.",
+            "items": [
+              "Allow the selected tab to change",
+              "Update Follow state when the Follow button is pressed",
+              "Provide feedback for interactive controls",
+              "Maintain state while switching between profile tabs"
+            ]
+          },
+          {
+            "id": "quality",
+            "title": "Quality and accessibility",
+            "description": "Build the profile as a production-quality mobile screen.",
+            "items": [
+              "Support common mobile screen sizes",
+              "Provide accessible labels for interactive controls",
+              "Handle missing profile information gracefully"
+            ]
+          }
+        ],
+        "bonus": [
+          "Animate profile statistics",
+          "Add dark mode",
+          "Add skeleton loading states",
+          "Add UI tests"
+        ],
+        "implementationNote": "Use any architecture, libraries, or UI framework patterns you prefer."
+      },
+      "assets": {
+        "title": "Everything you need to get started",
+        "description": "Download the profile designs, sample data, and supporting assets.",
+        "items": [
+          {
+            "id": "mockups",
+            "label": "Screen mockups",
+            "description": "3 high-resolution profile reference screens",
+            "type": "images",
+            "format": "PNG",
+            "size": "4.2 MB",
+            "access": "free",
+            "path": "/challenges/profile-card/assets/mockups.zip"
+          },
+          {
+            "id": "avatar",
+            "label": "Profile images",
+            "description": "Avatar and supporting profile imagery",
+            "type": "images",
+            "format": "PNG",
+            "size": "1.8 MB",
+            "access": "free",
+            "path": "/challenges/profile-card/assets/profile-images.zip"
+          },
+          {
+            "id": "profile-data",
+            "label": "Profile data",
+            "description": "Sample profile, projects, statistics, and skills",
+            "type": "json",
+            "format": "JSON",
+            "size": "6 KB",
+            "access": "free",
+            "path": "/challenges/profile-card/assets/profile.json"
+          },
+          {
+            "id": "design-tokens",
+            "label": "Design tokens",
+            "description": "Colors, typography, spacing, and corner radii",
+            "type": "json",
+            "format": "JSON",
+            "size": "3 KB",
+            "access": "free",
+            "path": "/challenges/profile-card/assets/design-tokens.json"
+          },
+          {
+            "id": "readme",
+            "label": "Challenge README",
+            "description": "Challenge guidance and implementation notes",
+            "type": "document",
+            "format": "Markdown",
+            "size": "5 KB",
+            "access": "free",
+            "path": "/challenges/profile-card/assets/README.md"
+          }
+        ]
+      },
+      "submissions": {
+        "title": "Community solutions",
+        "description": "See how other developers approached the Profile Card challenge.",
+        "filters": [
+          "all",
+          "android",
+          "ios",
+          "flutter",
+          "react-native"
+        ],
+        "sortOptions": [
+          "most-popular",
+          "newest",
+          "most-viewed"
+        ],
+        "rules": {
+          "requiresGithubRepo": true,
+          "requiresScreenshots": true,
+          "requiresPlatform": true,
+          "allowsDescription": true,
+          "allowPrivateSubmission": false
+        },
+        "featured": [
+          {
+            "id": "profile-compose",
+            "title": "Developer Profile",
+            "author": "@mobiledev",
+            "platform": "android",
+            "technologies": [
+              "Kotlin",
+              "Jetpack Compose"
+            ],
+            "likes": 84,
+            "views": 2100
+          },
+          {
+            "id": "profile-swiftui",
+            "title": "DevProfile",
+            "author": "@swiftbuilder",
+            "platform": "ios",
+            "technologies": [
+              "Swift",
+              "SwiftUI"
+            ],
+            "likes": 61,
+            "views": 1700
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "settings-screen",
+    "slug": "settings-screen",
+    "title": "Settings Screen",
+    "description": "Build a modern settings experience with grouped preferences, toggles, appearance controls, and notification options.",
+    "difficulty": "beginner",
+    "access": "free",
+    "estimatedTime": {
+      "minHours": 1,
+      "maxHours": 2
+    },
+    "single": "/ch-02-01.png",
+    "screens": 3,
+    "platforms": [
+      "android",
+      "ios",
+      "flutter",
+      "react-native"
+    ],
+    "previewImages": [
+      "/challenges/settings-screen/settings.png",
+      "/challenges/settings-screen/appearance.png",
+      "/challenges/settings-screen/notifications.png"
+    ],
+    "skills": [
+      "ui",
+      "state",
+      "components",
+      "persistence",
+      "theming",
+      "accessibility"
+    ],
+    "tabs": {
+      "overview": {
+        "mission": "Build a reusable settings experience that allows users to configure account preferences, appearance, notifications, and application behavior.",
+        "requirementsSummary": [
+          "Display grouped settings",
+          "Implement toggles and selectors",
+          "Allow theme customization",
+          "Implement notification preferences",
+          "Maintain preference state"
+        ],
+        "bonusSummary": [
+          "Persistent preferences",
+          "System theme support",
+          "Dynamic colors"
+        ],
+        "assetsSummary": [
+          "3 screen mockups",
+          "Icons",
+          "Settings data",
+          "README"
+        ]
+      },
+      "requirements": {
+        "title": "Detailed requirements",
+        "description": "Implement the settings, appearance, and notification screens shown in the designs.",
+        "sections": [
+          {
+            "id": "settings-home",
+            "title": "Settings overview",
+            "description": "Build the primary settings screen.",
+            "items": [
+              "Display Account and Privacy settings",
+              "Display notification settings",
+              "Display appearance settings",
+              "Display preferences and support sections",
+              "Support navigation to nested settings screens"
+            ]
+          },
+          {
+            "id": "appearance",
+            "title": "Appearance",
+            "description": "Allow users to personalize how the application looks.",
+            "items": [
+              "Support Light, Dark, and System themes",
+              "Allow selection of an accent color",
+              "Allow users to change text size",
+              "Provide immediate visual feedback when settings change"
+            ]
+          },
+          {
+            "id": "notifications",
+            "title": "Notifications",
+            "description": "Allow individual notification preferences to be configured.",
+            "items": [
+              "Implement push notification toggle",
+              "Implement new-message notification toggle",
+              "Implement comments and mentions toggles",
+              "Implement email preference toggles",
+              "Maintain independent state for each preference"
+            ]
+          },
+          {
+            "id": "state",
+            "title": "State and persistence",
+            "description": "Settings should behave consistently while users navigate the app.",
+            "items": [
+              "Maintain settings while navigating between screens",
+              "Reflect current values when returning to a settings page",
+              "Handle disabled settings correctly"
+            ]
+          }
+        ],
+        "bonus": [
+          "Persist settings between launches",
+          "Respond automatically to system theme changes",
+          "Support dynamic color",
+          "Add accessibility text scaling",
+          "Add unit tests"
+        ],
+        "implementationNote": "You may use platform-native preferences or any persistence mechanism you prefer."
+      },
+      "assets": {
+        "title": "Everything you need to get started",
+        "description": "Download settings mockups, icons, and starter preference data.",
+        "items": [
+          {
+            "id": "mockups",
+            "label": "Screen mockups",
+            "description": "Settings, Appearance, and Notifications designs",
+            "type": "images",
+            "format": "PNG",
+            "size": "3.9 MB",
+            "access": "free",
+            "path": "/challenges/settings-screen/assets/mockups.zip"
+          },
+          {
+            "id": "icons",
+            "label": "Settings icons",
+            "description": "Icons used throughout the settings screens",
+            "type": "archive",
+            "format": "SVG/PNG",
+            "size": "1.1 MB",
+            "access": "free",
+            "path": "/challenges/settings-screen/assets/icons.zip"
+          },
+          {
+            "id": "settings-data",
+            "label": "Default settings",
+            "description": "Initial preference values",
+            "type": "json",
+            "format": "JSON",
+            "size": "4 KB",
+            "access": "free",
+            "path": "/challenges/settings-screen/assets/settings.json"
+          },
+          {
+            "id": "design-tokens",
+            "label": "Design tokens",
+            "description": "Theme colors, typography, and dimensions",
+            "type": "json",
+            "format": "JSON",
+            "size": "4 KB",
+            "access": "free",
+            "path": "/challenges/settings-screen/assets/design-tokens.json"
+          },
+          {
+            "id": "readme",
+            "label": "Challenge README",
+            "description": "Requirements and implementation guidance",
+            "type": "document",
+            "format": "Markdown",
+            "size": "5 KB",
+            "access": "free",
+            "path": "/challenges/settings-screen/assets/README.md"
+          }
+        ]
+      },
+      "submissions": {
+        "title": "Community solutions",
+        "description": "Compare different approaches to settings and preference management.",
+        "filters": [
+          "all",
+          "android",
+          "ios",
+          "flutter",
+          "react-native"
+        ],
+        "sortOptions": [
+          "most-popular",
+          "newest",
+          "most-viewed"
+        ],
+        "rules": {
+          "requiresGithubRepo": true,
+          "requiresScreenshots": true,
+          "requiresPlatform": true,
+          "allowsDescription": true,
+          "allowPrivateSubmission": false
+        },
+        "featured": [
+          {
+            "id": "settings-compose",
+            "title": "Settings Compose",
+            "author": "@androidcraft",
+            "platform": "android",
+            "technologies": [
+              "Kotlin",
+              "Compose",
+              "DataStore"
+            ],
+            "likes": 75,
+            "views": 1900
+          },
+          {
+            "id": "settings-flutter",
+            "title": "Settings Kit",
+            "author": "@flutterdev",
+            "platform": "flutter",
+            "technologies": [
+              "Dart",
+              "Flutter"
+            ],
+            "likes": 58,
+            "views": 1400
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "food-ordering",
+    "slug": "food-ordering",
+    "title": "Food Ordering",
+    "description": "Build a multi-screen food ordering experience where users can browse restaurants, select meals, customize items, and manage their cart.",
+    "difficulty": "junior",
+    "access": "free",
+    "estimatedTime": {
+      "minHours": 3,
+      "maxHours": 5
+    },
+    "single": "/ch-03-01.png",
+    "screens": 3,
+    "platforms": [
+      "android",
+      "ios",
+      "flutter",
+      "react-native"
+    ],
+    "previewImages": [
+      "/challenges/food-ordering/home.png",
+      "/challenges/food-ordering/restaurant.png",
+      "/challenges/food-ordering/cart.png"
+    ],
+    "skills": [
+      "ui",
+      "state",
+      "navigation",
+      "lists",
+      "forms",
+      "architecture"
+    ],
+    "tabs": {
+      "overview": {
+        "mission": "Build a multi-screen food ordering app that lets users discover restaurants, browse menus, add items to their cart, and review an order before checkout.",
+        "requirementsSummary": [
+          "Browse restaurants and meals",
+          "Filter food categories",
+          "View menu details",
+          "Manage cart state",
+          "Calculate order totals"
+        ],
+        "bonusSummary": [
+          "Favorites",
+          "Search",
+          "Cart animations"
+        ],
+        "assetsSummary": [
+          "3 screen mockups",
+          "Icons",
+          "Restaurants data",
+          "Menu data",
+          "README"
+        ]
+      },
+      "requirements": {
+        "title": "Detailed requirements",
+        "description": "Build the complete browse-to-cart experience represented in the supplied designs.",
+        "sections": [
+          {
+            "id": "discovery",
+            "title": "Restaurant discovery",
+            "description": "Build the primary food discovery experience.",
+            "items": [
+              "Display featured restaurants",
+              "Display recommended meals",
+              "Support category filters",
+              "Provide restaurant or meal search",
+              "Display ratings and delivery estimates"
+            ]
+          },
+          {
+            "id": "restaurant",
+            "title": "Restaurant and menu",
+            "description": "Allow users to explore a restaurant's available food.",
+            "items": [
+              "Display restaurant information",
+              "Display menu categories",
+              "Display menu items with images and prices",
+              "Allow users to add menu items to the cart",
+              "Allow item quantity changes"
+            ]
+          },
+          {
+            "id": "cart",
+            "title": "Cart",
+            "description": "Create a functional order cart.",
+            "items": [
+              "Display selected products",
+              "Allow quantities to increase or decrease",
+              "Allow items to be removed",
+              "Calculate subtotal",
+              "Calculate delivery and service fees",
+              "Calculate final order total",
+              "Support an empty-cart state"
+            ]
+          },
+          {
+            "id": "state",
+            "title": "Application state",
+            "description": "Cart state should remain consistent across the application.",
+            "items": [
+              "Maintain cart contents during navigation",
+              "Prevent invalid quantities",
+              "Handle loading and empty states",
+              "Keep displayed totals synchronized with cart contents"
+            ]
+          }
+        ],
+        "bonus": [
+          "Add favorites",
+          "Persist the cart locally",
+          "Animate item additions",
+          "Add promo-code support",
+          "Add loading skeletons"
+        ],
+        "implementationNote": "No real payment processing is required for this challenge."
+      },
+      "assets": {
+        "title": "Everything you need to get started",
+        "description": "Download reference screens, food imagery, and sample restaurant data.",
+        "items": [
+          {
+            "id": "mockups",
+            "label": "Screen mockups",
+            "description": "3 high-resolution ordering screens",
+            "type": "images",
+            "format": "PNG",
+            "size": "6.8 MB",
+            "access": "free",
+            "path": "/challenges/food-ordering/assets/mockups.zip"
+          },
+          {
+            "id": "food-images",
+            "label": "Food images",
+            "description": "Restaurant and menu imagery",
+            "type": "archive",
+            "format": "JPG/PNG",
+            "size": "14.2 MB",
+            "access": "free",
+            "path": "/challenges/food-ordering/assets/images.zip"
+          },
+          {
+            "id": "restaurants",
+            "label": "Restaurant data",
+            "description": "Sample restaurant listings and metadata",
+            "type": "json",
+            "format": "JSON",
+            "size": "15 KB",
+            "access": "free",
+            "path": "/challenges/food-ordering/assets/restaurants.json"
+          },
+          {
+            "id": "menu",
+            "label": "Menu data",
+            "description": "Sample meals, categories, and prices",
+            "type": "json",
+            "format": "JSON",
+            "size": "21 KB",
+            "access": "free",
+            "path": "/challenges/food-ordering/assets/menu.json"
+          },
+          {
+            "id": "readme",
+            "label": "Challenge README",
+            "description": "Requirements and development guidance",
+            "type": "document",
+            "format": "Markdown",
+            "size": "7 KB",
+            "access": "free",
+            "path": "/challenges/food-ordering/assets/README.md"
+          }
+        ]
+      },
+      "submissions": {
+        "title": "Community solutions",
+        "description": "Explore how developers implemented the restaurant browsing and cart experience.",
+        "filters": [
+          "all",
+          "android",
+          "ios",
+          "flutter",
+          "react-native"
+        ],
+        "sortOptions": [
+          "most-popular",
+          "newest",
+          "most-viewed"
+        ],
+        "rules": {
+          "requiresGithubRepo": true,
+          "requiresScreenshots": true,
+          "requiresPlatform": true,
+          "allowsDescription": true,
+          "allowPrivateSubmission": false
+        },
+        "featured": [
+          {
+            "id": "food-compose",
+            "title": "Foodie",
+            "author": "@composecoder",
+            "platform": "android",
+            "technologies": [
+              "Kotlin",
+              "Compose",
+              "Navigation"
+            ],
+            "likes": 126,
+            "views": 4200
+          },
+          {
+            "id": "food-react-native",
+            "title": "QuickBite",
+            "author": "@nativebuilder",
+            "platform": "react-native",
+            "technologies": [
+              "TypeScript",
+              "React Native"
+            ],
+            "likes": 103,
+            "views": 3600
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "expense-tracker",
+    "slug": "expense-tracker",
+    "title": "Expense Tracker",
+    "description": "Build an expense management app where users can record transactions, categorize spending, view summaries, and track their spending habits.",
+    "difficulty": "intermediate",
+    "access": "pro",
+    "estimatedTime": {
+      "minHours": 5,
+      "maxHours": 7
+    },
+    "single": "/ch-04-01.png",
+    "screens": 3,
+    "platforms": [
+      "android",
+      "ios",
+      "flutter",
+      "react-native"
+    ],
+    "previewImages": [
+      "/challenges/expense-tracker/dashboard.png",
+      "/challenges/expense-tracker/add-expense.png",
+      "/challenges/expense-tracker/analytics.png"
+    ],
+    "skills": [
+      "ui",
+      "state",
+      "navigation",
+      "database",
+      "persistence",
+      "forms",
+      "architecture"
+    ],
+    "tabs": {
+      "overview": {
+        "mission": "Build an expense tracking application that allows users to record income and expenses, organize transactions into categories, and understand where their money is going.",
+        "requirementsSummary": [
+          "Display financial summaries",
+          "Add income and expenses",
+          "Categorize transactions",
+          "Display spending analytics",
+          "Persist transaction data"
+        ],
+        "bonusSummary": [
+          "Recurring transactions",
+          "Budget warnings",
+          "Dark mode"
+        ],
+        "assetsSummary": [
+          "3 screen mockups",
+          "Icons",
+          "Transactions data",
+          "Categories data",
+          "README"
+        ]
+      },
+      "requirements": {
+        "title": "Detailed requirements",
+        "description": "Create a functional expense-management experience rather than a set of static screens.",
+        "sections": [
+          {
+            "id": "dashboard",
+            "title": "Dashboard",
+            "description": "Provide users with an overview of their financial activity.",
+            "items": [
+              "Display total balance",
+              "Display total income",
+              "Display total expenses",
+              "Display recent transactions",
+              "Display spending totals by category"
+            ]
+          },
+          {
+            "id": "transactions",
+            "title": "Transaction management",
+            "description": "Allow users to manage expense and income records.",
+            "items": [
+              "Allow users to create transactions",
+              "Support income and expense transaction types",
+              "Allow category selection",
+              "Allow transactions to be edited",
+              "Allow transactions to be deleted",
+              "Validate required input fields"
+            ]
+          },
+          {
+            "id": "analytics",
+            "title": "Analytics",
+            "description": "Help users understand their spending.",
+            "items": [
+              "Calculate spending by category",
+              "Display visual category summaries",
+              "Keep analytics synchronized with transaction changes"
+            ]
+          },
+          {
+            "id": "persistence",
+            "title": "Persistence and state",
+            "description": "Transaction data should survive normal app usage.",
+            "items": [
+              "Persist transactions locally",
+              "Restore saved transactions after restart",
+              "Maintain state during navigation",
+              "Support empty and loading states"
+            ]
+          }
+        ],
+        "bonus": [
+          "Monthly charts",
+          "Recurring expenses",
+          "Budget alerts",
+          "Search and filters",
+          "Dark mode",
+          "Unit and UI tests"
+        ],
+        "implementationNote": "Choose any local database or persistence solution appropriate for your platform."
+      },
+      "assets": {
+        "title": "Everything you need to get started",
+        "description": "Download designs, transaction data, category icons, and supporting files.",
+        "items": [
+          {
+            "id": "mockups",
+            "label": "Screen mockups",
+            "description": "3 high-resolution expense tracker screens",
+            "type": "images",
+            "format": "PNG",
+            "size": "5.9 MB",
+            "access": "pro",
+            "path": "/challenges/expense-tracker/assets/mockups.zip"
+          },
+          {
+            "id": "icons",
+            "label": "Category icons",
+            "description": "Transaction category icons",
+            "type": "archive",
+            "format": "SVG/PNG",
+            "size": "1.5 MB",
+            "access": "pro",
+            "path": "/challenges/expense-tracker/assets/icons.zip"
+          },
+          {
+            "id": "transactions",
+            "label": "Sample transactions",
+            "description": "Starter income and expense records",
+            "type": "json",
+            "format": "JSON",
+            "size": "18 KB",
+            "access": "pro",
+            "path": "/challenges/expense-tracker/assets/transactions.json"
+          },
+          {
+            "id": "categories",
+            "label": "Categories",
+            "description": "Starter transaction categories",
+            "type": "json",
+            "format": "JSON",
+            "size": "5 KB",
+            "access": "pro",
+            "path": "/challenges/expense-tracker/assets/categories.json"
+          },
+          {
+            "id": "readme",
+            "label": "Challenge README",
+            "description": "Requirements and implementation guidance",
+            "type": "document",
+            "format": "Markdown",
+            "size": "8 KB",
+            "access": "pro",
+            "path": "/challenges/expense-tracker/assets/README.md"
+          }
+        ]
+      },
+      "submissions": {
+        "title": "Community solutions",
+        "description": "Compare different data, state-management, and persistence approaches.",
+        "filters": [
+          "all",
+          "android",
+          "ios",
+          "flutter",
+          "react-native"
+        ],
+        "sortOptions": [
+          "most-popular",
+          "newest",
+          "most-viewed"
+        ],
+        "rules": {
+          "requiresGithubRepo": true,
+          "requiresScreenshots": true,
+          "requiresPlatform": true,
+          "allowsDescription": true,
+          "allowPrivateSubmission": true
+        },
+        "featured": [
+          {
+            "id": "expense-android",
+            "title": "SpendWise",
+            "author": "@kotlinbuilder",
+            "platform": "android",
+            "technologies": [
+              "Kotlin",
+              "Compose",
+              "Room"
+            ],
+            "likes": 137,
+            "views": 5100
+          },
+          {
+            "id": "expense-flutter",
+            "title": "PocketTrack",
+            "author": "@dartdev",
+            "platform": "flutter",
+            "technologies": [
+              "Dart",
+              "Flutter",
+              "Riverpod"
+            ],
+            "likes": 102,
+            "views": 3900
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "messaging-ui",
+    "slug": "messaging-ui",
+    "title": "Messaging UI",
+    "description": "Build a modern messaging experience with conversations, message threads, unread states, contact selection, and responsive chat interactions.",
+    "difficulty": "intermediate",
+    "access": "pro",
+    "estimatedTime": {
+      "minHours": 4,
+      "maxHours": 6
+    },
+    "single": "/ch-05-01.png",
+    "screens": 3,
+    "platforms": [
+      "android",
+      "ios",
+      "flutter",
+      "react-native"
+    ],
+    "previewImages": [
+      "/challenges/messaging-ui/conversations.png",
+      "/challenges/messaging-ui/chat.png",
+      "/challenges/messaging-ui/new-message.png"
+    ],
+    "skills": [
+      "ui",
+      "state",
+      "navigation",
+      "lists",
+      "forms",
+      "architecture",
+      "testing"
+    ],
+    "tabs": {
+      "overview": {
+        "mission": "Build a modern messaging interface where users can browse conversations, open message threads, send messages, and start new conversations.",
+        "requirementsSummary": [
+          "Display conversations",
+          "Show unread states",
+          "Render message threads",
+          "Send messages",
+          "Start new conversations"
+        ],
+        "bonusSummary": [
+          "Typing indicators",
+          "Read receipts",
+          "Message reactions"
+        ],
+        "assetsSummary": [
+          "3 screen mockups",
+          "Avatars",
+          "Contacts",
+          "Messages",
+          "README"
+        ]
+      },
+      "requirements": {
+        "title": "Detailed requirements",
+        "description": "Build the conversation list, chat thread, and new-message experiences shown in the supplied designs.",
+        "sections": [
+          {
+            "id": "conversation-list",
+            "title": "Conversation list",
+            "description": "Display and organize a user's conversations.",
+            "items": [
+              "Display contact avatars and names",
+              "Display latest-message previews",
+              "Display timestamps",
+              "Display unread message counts",
+              "Allow users to search conversations",
+              "Open the selected conversation"
+            ]
+          },
+          {
+            "id": "chat",
+            "title": "Message thread",
+            "description": "Build the primary chat experience.",
+            "items": [
+              "Display incoming and outgoing message bubbles",
+              "Display message timestamps",
+              "Allow users to compose a message",
+              "Allow users to send a message",
+              "Automatically scroll to the latest message",
+              "Maintain messages while navigating"
+            ]
+          },
+          {
+            "id": "new-message",
+            "title": "New conversation",
+            "description": "Allow a user to start a new message thread.",
+            "items": [
+              "Display available contacts",
+              "Allow contacts to be searched",
+              "Allow a recipient to be selected",
+              "Create a new conversation",
+              "Prevent sending without a recipient"
+            ]
+          },
+          {
+            "id": "states",
+            "title": "Application states",
+            "description": "Handle common messaging states gracefully.",
+            "items": [
+              "Support an empty conversation list",
+              "Support an empty message thread",
+              "Handle message-send state",
+              "Preserve unread state correctly"
+            ]
+          }
+        ],
+        "bonus": [
+          "Typing indicator",
+          "Read receipts",
+          "Online presence",
+          "Message reactions",
+          "Animated message insertion",
+          "UI tests"
+        ],
+        "implementationNote": "A real messaging server is not required. Local or mocked message data is sufficient."
+      },
+      "assets": {
+        "title": "Everything you need to get started",
+        "description": "Download the messaging designs, avatar assets, contacts, and sample conversation data.",
+        "items": [
+          {
+            "id": "mockups",
+            "label": "Screen mockups",
+            "description": "3 high-resolution messaging screens",
+            "type": "images",
+            "format": "PNG",
+            "size": "5.4 MB",
+            "access": "pro",
+            "path": "/challenges/messaging-ui/assets/mockups.zip"
+          },
+          {
+            "id": "avatars",
+            "label": "Contact avatars",
+            "description": "Avatar images used in the designs",
+            "type": "archive",
+            "format": "JPG/PNG",
+            "size": "6.1 MB",
+            "access": "pro",
+            "path": "/challenges/messaging-ui/assets/avatars.zip"
+          },
+          {
+            "id": "contacts",
+            "label": "Contacts",
+            "description": "Sample contact directory",
+            "type": "json",
+            "format": "JSON",
+            "size": "9 KB",
+            "access": "pro",
+            "path": "/challenges/messaging-ui/assets/contacts.json"
+          },
+          {
+            "id": "messages",
+            "label": "Message history",
+            "description": "Sample conversation and message data",
+            "type": "json",
+            "format": "JSON",
+            "size": "24 KB",
+            "access": "pro",
+            "path": "/challenges/messaging-ui/assets/messages.json"
+          },
+          {
+            "id": "readme",
+            "label": "Challenge README",
+            "description": "Requirements and implementation guidance",
+            "type": "document",
+            "format": "Markdown",
+            "size": "7 KB",
+            "access": "pro",
+            "path": "/challenges/messaging-ui/assets/README.md"
+          }
+        ]
+      },
+      "submissions": {
+        "title": "Community solutions",
+        "description": "See how developers implemented conversation state and chat interactions.",
+        "filters": [
+          "all",
+          "android",
+          "ios",
+          "flutter",
+          "react-native"
+        ],
+        "sortOptions": [
+          "most-popular",
+          "newest",
+          "most-viewed"
+        ],
+        "rules": {
+          "requiresGithubRepo": true,
+          "requiresScreenshots": true,
+          "requiresPlatform": true,
+          "allowsDescription": true,
+          "allowPrivateSubmission": true
+        },
+        "featured": [
+          {
+            "id": "chat-compose",
+            "title": "ComposeChat",
+            "author": "@androiddev",
+            "platform": "android",
+            "technologies": [
+              "Kotlin",
+              "Compose",
+              "StateFlow"
+            ],
+            "likes": 154,
+            "views": 5800
+          },
+          {
+            "id": "chat-swift",
+            "title": "SwiftMessages",
+            "author": "@iosbuilder",
+            "platform": "ios",
+            "technologies": [
+              "Swift",
+              "SwiftUI"
+            ],
+            "likes": 121,
+            "views": 4400
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "finance-tracker",
+    "slug": "finance-tracker",
+    "title": "Finance Tracker",
+    "description": "Build a multi-screen finance tracking app with charts, transactions, categories, and clean dashboard insights.",
+    "difficulty": "advanced",
+    "access": "pro",
+    "estimatedTime": {
+      "minHours": 6,
+      "maxHours": 8
+    },
+    "single": "/ch-06-01.png",
+    "screens": 3,
+    "platforms": [
+      "android",
+      "ios",
+      "flutter",
+      "react-native"
+    ],
+    "previewImages": [
+      "/challenges/finance-tracker/overview.png",
+      "/challenges/finance-tracker/analytics.png",
+      "/challenges/finance-tracker/transactions.png"
+    ],
+    "skills": [
+      "ui",
+      "state",
+      "navigation",
+      "api",
+      "database",
+      "charts",
+      "architecture"
+    ],
+    "tabs": {
+      "overview": {
+        "mission": "Build a multi-screen finance tracking app that helps users monitor their balance, analyze spending, and manage transactions.",
+        "requirementsSummary": [
+          "Display account balance and spending summary",
+          "Show recent transactions and category breakdowns",
+          "Add filters for time range and categories",
+          "Support empty, loading, and error states",
+          "Persist data locally"
+        ],
+        "bonusSummary": [
+          "Dark mode",
+          "Smooth chart transitions",
+          "Accessibility and UI tests"
+        ],
+        "assetsSummary": [
+          "3 screen mockups",
+          "Icons",
+          "Transactions data",
+          "Design tokens data",
+          "README"
+        ]
+      },
+      "requirements": {
+        "title": "Detailed requirements",
+        "description": "Here's everything you need to build for this challenge.",
+        "sections": [
+          {
+            "id": "dashboard",
+            "title": "Dashboard",
+            "description": "Build the main finance dashboard shown in the supplied designs.",
+            "items": [
+              "Display the user's total balance",
+              "Display total income and total expenses",
+              "Show spending broken down by category",
+              "Display recent transactions",
+              "Allow the user to switch between supported time ranges"
+            ]
+          },
+          {
+            "id": "transactions",
+            "title": "Transactions",
+            "description": "Users should be able to view and work with their transaction history.",
+            "items": [
+              "Display transaction name, category, date, and amount",
+              "Visually distinguish income from expenses",
+              "Filter transactions by category",
+              "Filter transactions by time range",
+              "Support searching transactions",
+              "Handle an empty transaction list"
+            ]
+          },
+          {
+            "id": "analytics",
+            "title": "Analytics",
+            "description": "Build the analytics experience represented in the supplied mockups.",
+            "items": [
+              "Display spending totals by category",
+              "Render the supplied chart design",
+              "Update analytics when the selected time range changes",
+              "Keep displayed totals consistent with transaction data"
+            ]
+          },
+          {
+            "id": "data-state",
+            "title": "Data and state",
+            "description": "The application should behave like a real mobile application.",
+            "items": [
+              "Persist transaction data locally",
+              "Restore persisted data after the application restarts",
+              "Maintain state while navigating between screens",
+              "Show loading, empty, and error states where appropriate"
+            ]
+          }
+        ],
+        "bonus": [
+          "Dark mode",
+          "Smooth chart animations",
+          "Accessibility support",
+          "Dynamic theme support",
+          "Unit tests",
+          "UI tests"
+        ],
+        "implementationNote": "You may use any architecture, libraries, or patterns you prefer. Your goal is to reproduce the supplied experience while building a maintainable mobile application."
+      },
+      "assets": {
+        "title": "Everything you need to get started",
+        "description": "Download the reference designs, starter data, and supporting assets for this challenge.",
+        "items": [
+          {
+            "id": "mockups",
+            "label": "Screen mockups",
+            "description": "3 high-resolution reference screens",
+            "type": "images",
+            "format": "PNG",
+            "size": "6.4 MB",
+            "access": "pro",
+            "path": "/challenges/finance-tracker/assets/mockups.zip"
+          },
+          {
+            "id": "transactions",
+            "label": "Transaction data",
+            "description": "Sample transaction dataset",
+            "type": "json",
+            "format": "JSON",
+            "size": "12 KB",
+            "access": "pro",
+            "path": "/challenges/finance-tracker/assets/transactions.json"
+          },
+          {
+            "id": "icons",
+            "label": "Icons",
+            "description": "Category and navigation icons",
+            "type": "archive",
+            "format": "SVG/PNG",
+            "size": "1.2 MB",
+            "access": "pro",
+            "path": "/challenges/finance-tracker/assets/icons.zip"
+          },
+          {
+            "id": "design-tokens",
+            "label": "Design tokens",
+            "description": "Colors, typography, spacing, and corner radii",
+            "type": "json",
+            "format": "JSON",
+            "size": "4 KB",
+            "access": "pro",
+            "path": "/challenges/finance-tracker/assets/design-tokens.json"
+          },
+          {
+            "id": "readme",
+            "label": "Challenge README",
+            "description": "Requirements, guidance, and tips",
+            "type": "document",
+            "format": "Markdown",
+            "size": "6 KB",
+            "access": "pro",
+            "path": "/challenges/finance-tracker/assets/README.md"
+          }
+        ]
+      },
+      "submissions": {
+        "title": "Community solutions",
+        "description": "See how other developers approached this challenge, or submit your own implementation.",
+        "filters": [
+          "all",
+          "android",
+          "ios",
+          "flutter",
+          "react-native"
+        ],
+        "sortOptions": [
+          "most-popular",
+          "newest",
+          "most-viewed"
+        ],
+        "rules": {
+          "requiresGithubRepo": true,
+          "requiresScreenshots": true,
+          "requiresPlatform": true,
+          "allowsDescription": true,
+          "allowPrivateSubmission": true
+        },
+        "featured": [
+          {
+            "id": "finance-compose",
+            "title": "Finance Tracker",
+            "author": "@danieldev",
+            "platform": "android",
+            "technologies": [
+              "Kotlin",
+              "Jetpack Compose",
+              "Room"
+            ],
+            "likes": 142,
+            "views": 6200
+          },
+          {
+            "id": "finance-swiftui",
+            "title": "FinanceFlow",
+            "author": "@stephanie.dev",
+            "platform": "ios",
+            "technologies": [
+              "Swift",
+              "SwiftUI"
+            ],
+            "likes": 118,
+            "views": 5100
+          },
+          {
+            "id": "finance-flutter",
+            "title": "MoneyMate",
+            "author": "@pierrecodes",
+            "platform": "flutter",
+            "technologies": [
+              "Dart",
+              "Flutter",
+              "Riverpod"
+            ],
+            "likes": 96,
+            "views": 3800
+          }
+        ]
+      }
+    }
+  }
+]
