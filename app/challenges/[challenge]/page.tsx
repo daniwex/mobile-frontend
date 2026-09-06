@@ -22,7 +22,7 @@ export default function page() {
             <NavChip
               current={currChallenge.title}
               previous="Challenges"
-              onClickPrevious={() => router.back()}
+              onClickPrevious={() => router.replace("/challenges")}
             />
           </div>
           <div className="md:flex home-section">

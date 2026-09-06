@@ -11,29 +11,29 @@ export default function DetailBody({ slug }: { slug: string }) {
 
   return (
     <div className="md:my-10">
-      <div className="border-b border-gray-500/30 home-section pb-3">
+      <div className="border-b border-gray-500/30 home-section">
         <div className="flex flex-row md:gap-x-10">
           <span
             onClick={() => setActiveTab("overview")}
-            className={`cursor-pointer ${activeTab == "overview" ? "text-[#e63946]" : "text-black"}`}
+            className={`cursor-pointer pb-2 relative ${activeTab == "overview" ? "active-tab" : "text-black"}`}
           >
             Overview
           </span>
           <span
             onClick={() => setActiveTab("requirements")}
-            className={`cursor-pointer ${activeTab == "requirements" ? "text-[#e63946]" : "text-black"}`}
+            className={`cursor-pointer relative ${activeTab == "requirements" ? "active-tab" : "text-black"}`}
           >
             Requirements
           </span>
           <span
             onClick={() => setActiveTab("assets")}
-            className={`cursor-pointer ${activeTab == "assets" ? "text-[#e63946]" : "text-black"}`}
+            className={`cursor-pointer relative ${activeTab == "assets" ? "active-tab" : "text-black"}`}
           >
             Assets
           </span>
           <span
             onClick={() => setActiveTab("submissions")}
-            className={`cursor-pointer ${activeTab == "submissions" ? "text-[#e63946]" : "text-black"}`}
+            className={`cursor-pointer relative ${activeTab == "submissions" ? "active-tab" : "text-black"}`}
           >
             Submissions
           </span>

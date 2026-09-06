@@ -4,15 +4,23 @@ import { useState } from "react";
 import challenges from "../../src/content/challenges/data.json";
 import { useRouter } from "next/navigation";
 import Challege from "../components/Challege";
+import NavChip from "../components/NavChip";
 
 export default function page() {
   const router = useRouter();
   const [showSettingPane, setShowSettingPane] = useState(false);
   const navigateToChallenge = (slug: string) => {
-    router.push(`challenges/${slug}`)
-  }
+    router.push(`challenges/${slug}`);
+  };
   return (
     <div className="home-section py-10">
+      <div className="md:mb-10">
+        <NavChip
+          current="Challenges"
+          previous="Home"
+          onClickPrevious={() => router.replace("/")}
+        />
+      </div>
       <div className="w-full ">
         <p className="h2">Challenges</p>
       </div>

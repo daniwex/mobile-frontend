@@ -5,16 +5,14 @@ type Requirements = {
   requirementOverview: ChallengeRequirements;
 };
 
-
-
 export default function RequirementsTab({ requirementOverview }: Requirements) {
   const bonus = {
-  id: "bonus",
-  title: "Bonus requirements",
-  description: "Nice to have features that will make your project stand out.",
-  items: requirementOverview.bonus,
-};
-const data = [...requirementOverview.sections, bonus]
+    id: "bonus",
+    title: "Bonus requirements",
+    description: "Nice to have features that will make your project stand out.",
+    items: requirementOverview.bonus,
+  };
+  const data = [...requirementOverview.sections, bonus];
   return (
     <div className="">
       <div className="flex flex-col gap-y-2">
@@ -24,6 +22,7 @@ const data = [...requirementOverview.sections, bonus]
       <div className="flex flex-col gap-y-2 mt-5">
         {data.map((el, index) => (
           <Accordion
+            key={el.title}
             defaultExpanded={index == 0}
             index={index + 1}
             data={el}

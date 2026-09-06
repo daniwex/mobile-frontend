@@ -2,10 +2,7 @@
 
 import { useState } from "react";
 import { RequirementSection } from "../utils/common";
-import {
-  ChevronDown,
-  ChevronUp,
-} from "lucide-react";
+import { ChevronDown, ChevronUp, Star } from "lucide-react";
 
 type AccordionData = {
   modifier?: string;
@@ -23,15 +20,15 @@ export default function Accordion({
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
   return (
     <div
-      className={`list-decimal border border-gray-500/30 rounded-md py-2 px-5 ${modifier}`}
+      className={`list-decimal border border-gray-500/30 rounded-md py-4 px-5 ${modifier}`}
     >
       <button
         type="button"
-        className="w-full flex gap-x-4 text-left"
+        className="w-full flex gap-x-4 text-left cursor-pointer"
         onClick={() => setIsExpanded((prev) => !prev)}
       >
         <div className="w-10 h-10 rounded-full text-white bg-[#e63946] flex items-center justify-center">
-          <span>{index}</span>
+          <span>{data.id == "bonus" ? <Star size={18} /> : index}</span>
         </div>
         <div className="flex flex-col flex-1 overflow-hidden">
           <span className="h3 font-bold">{data.title}</span>
